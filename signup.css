@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+.top{
+    position: relative;
+    background-color: #65d9fe;
+    color: white;
+
+}
+.top>a{
+
+    text-decoration: none;
+    background-color: white;
+    padding: 15px;
+    display: inline-block;
+    color: black;
+    font-weight: 900;
+    line-height: 15px;
+}
+.header__text{
+    position: absolute;
+    left: 50%;
+    top: 0 ;
+    transform: translateX(-50%);
+}
